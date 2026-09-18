@@ -7,6 +7,17 @@
     <groupId>com.nisha</groupId>
     <artifactId>tictactoe</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <name>Tic Tac Toe</name>
+    <description>A simple Tic Tac Toe game</description>
+    <dependencies>
+        <!-- Source: https://mvnrepository.com/artifact/org.projectlombok/lombok -->
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.48</version>
+            <scope>compile</scope>
+        </dependency>
+    </dependencies>
 
     <properties>
         <maven.compiler.source>26</maven.compiler.source>
